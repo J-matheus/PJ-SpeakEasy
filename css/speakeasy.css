@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hotbar {
+    background-color: #7b6ada;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.hotbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu a {
+    color: white;
+    margin-right: 40px;
+    font-size: 13px;
+}
+
+.hotbar .hotbar-button {
+    background-color: #fff;
+    color: #7b6ada;
+    border: none;
+    cursor: pointer;
+    border-radius: 10%;
+    padding: 5px 10px; 
+    font-size: 12px;
+}
+
+.fixed-left {
+    color: white;
+    margin-right: auto;
+    margin-left: 20px;
+    font-size: 24px; 
+    font-family: 'Nixie One', sans-serif; 
+}
+
+.container {
+    background-color: #7b6ada;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 40px;
+    border-bottom-right-radius: 100px;
+}
+
+.container img {
+    max-height: 100%;
+    max-width: 50%;
+}
+
+.container .text {
+    text-align: right;
+    padding: 75px;
+    color: white;
+}
+
+.container .text p.title {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.container .text p.subtitle {
+    font-size: 20px;
+}
+
+.container .text p {
+    font-size: 16px;
+}
+
+.language-selection {
+    background-color: white;
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+
+.language-selection h2 {
+    font-size: 24px;
+    font-family: 'Arial', sans-serif;
+}
+
+.photo-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.photo {
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.photo img {
+    max-width: 100px;
+}
+
+.photo p {
+    color: #000;
+    font-size: 16px;
+    font-family: 'Arial', sans-serif;
+    text-align: justify;
+    margin-top: 10px;
+    max-width: 300px; 
+    line-height: 1.4;
+}
+
+.language-name.IFC {
+    color: #7b6ada;
+    font-size: 23px;
+}
+
+footer {
+    background-color: #7b6ada;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a {
+    color: white;
+}
+
+.purple-square {
+    width: 30%;
+    background-color: #7b6ada;
+    text-align: center;
+    padding: 20px;
+    display: inline-block;
+    margin-right: 40px; 
+    position: relative;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    color: white;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.purple-square ul {
+    position: relative;
+}
+
+.purple-square ul li:first-child {
+    position: absolute;
+    top: -50px; 
+    right: 100px; 
+}
+
+.purple-square ul li img {
+    width: 5px; 
+    height: 5px; 
+}
